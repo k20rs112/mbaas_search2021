@@ -88,22 +88,22 @@
 </head>
 
 <body>
-  <h1>mBaaS search</h1>
+  <h1>商品検索アプリ</h1>
   <div>
-    <label for="name">name:</label>
-    <input id="name" type="text" placeholder="monster name">
+    <label for="name">商品名:</label>
+    <input id="name" type="text" placeholder="brand name">
   </div>
   <div>
-    <label for="level">level:</label>
-    <input id="level" type="number" placeholder="monster level">
+    <label for="level">価格:</label>
+    <input id="level" type="number" placeholder="price">
   </div>
   <div id="button">
-    <button class="btn" onclick="fetchAll()">Fetch All</button>
-    <button class="btn" onclick="searchName()">Name</button>
+    <button class="btn" onclick="fetchAll()">全て表示</button>
+    <button class="btn" onclick="searchName()">名前検索</button>
     <br>
-    <button class="btn" onclick="searchLevelLT()">Level &lt</button>
-    <button class="btn" onclick="searchLevel()">Level</button>
-    <button class="btn" onclick="searchLevelGT()">Level &gt</button>
+    <button class="btn" onclick="searchLevelLT()">より安価</button>
+    <button class="btn" onclick="searchLevel()">価格検索</button>
+    <button class="btn" onclick="searchLevelGT()">より高価</button>
 
   </div>
   <div id="message">message area</div>
